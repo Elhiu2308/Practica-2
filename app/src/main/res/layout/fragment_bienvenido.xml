@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blanco"
+    tools:context=".BienvenidoFragment">
+
+    <ImageView
+        android:id="@+id/imgEncabezado"
+        style="@style/Imagen.Encabezado"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints"/>
+
+    <ImageView
+        android:id="@+id/imgCopa"
+        style="@style/Imagen.Copa"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <TextView
+        android:id="@+id/tvTitulo"
+        style="@style/Texto.Titulo.Dorado"
+        app:layout_constraintBottom_toTopOf="@id/tvBienvenida"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgCopa"/>
+
+    <TextView
+        android:id="@+id/tvBienvenida"
+        style="@style/Texto.Titulo.Verde"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvTitulo"/>
+
+    <LinearLayout
+        android:id="@+id/llPdf"
+        style="@style/LayoutPdf"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvBienvenida">
+
+        <TextView
+            android:id="@+id/tvCalendarioText"
+            style="@style/Texto.Azul.Calendario"/>
+
+        <View
+            android:id="@+id/separadorVertical"
+            style="@style/SeparadorVer"/>
+
+        <ImageView
+            android:id="@+id/icPdfCalendario"
+            style="@style/Imagen.Pdf" />
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/separadorHorizontal"
+        style="@style/SeparadorHor"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/llPdf" />
+
+    <TextView
+        android:id="@+id/tvGranFinal"
+        style="@style/Texto.Titulo.Dorado"
+        android:text="@string/gran_final"
+        app:layout_constraintBottom_toTopOf="@+id/llGranFinal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/separadorHorizontal" />
+
+    <LinearLayout
+        android:id="@+id/llGranFinal"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:gravity="bottom|center_horizontal"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@id/btnCerrarSesion"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvGranFinal">
+
+        <LinearLayout
+            style="@style/LinearLayoutHorizontal">
+
+            <TextView
+                android:id="@+id/tvPais1"
+                style="@style/Texto.Titulo.Celeste"/>
+
+            <ImageView
+                android:id="@+id/imgJugador1"
+                style="@style/Imagen.Jugador"
+                android:contentDescription="@string/argentina"
+                android:src="@drawable/messi" />
+        </LinearLayout>
+
+        <View
+            android:id="@+id/separadorJugadores"
+            style="@style/SeparadorVer" />
+
+        <LinearLayout
+            style="@style/LinearLayoutHorizontal">
+
+            <TextView
+                android:id="@+id/tvPais2"
+                style="@style/Texto.Titulo.Furia"/>
+
+            <ImageView
+                android:id="@+id/imgJugador2"
+                android:layout_width="180dp"
+                android:layout_height="240dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/yamal" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/separadorFlotante"
+        style="@style/SeparadorVer.Jugadores"
+        app:layout_constraintTop_toTopOf="@id/llGranFinal"
+        app:layout_constraintBottom_toBottomOf="@id/llGranFinal"
+        app:layout_constraintStart_toStartOf="@id/llGranFinal"
+        app:layout_constraintEnd_toEndOf="@id/llGranFinal" />
+
+    <Button
+        android:id="@+id/btnCerrarSesion"
+        style="@style/Boton.Cerrar"
+        app:layout_constraintBottom_toTopOf="@id/tvTextoPie"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+    <TextView
+        android:id="@+id/tvTextoPie"
+        style="@style/Texto.Pie"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

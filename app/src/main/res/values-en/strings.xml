@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Practice 1</string>
+    <string name="titulo_iniciar_sesion">Sign In</string>
+    <string name="etiqueta_correo">Email</string>
+    <string name="etiqueta_contrasena">Password</string>
+    <string name="boton_ingresar">Sign In</string>
+    <string name="texto_olvido_contrasena">Reset Password</string>
+    <string name="texto_pie">© FIFA World Cup 2026</string>
+    <string name="cambiar_idioma">ES</string>
+    <string name="error_campos_vacios">Please fill in all fields.</string>
+    <string name="error_correo_invalido">Invalid email address.</string>
+    <string name="error_contrasena_invalida">Invalid password.</string>
+    <string name="error_credenciales_invalidas">Incorrect username or password.</string>
+    <string name="error_calendario">Schedule not found.</string>
+    <string name="mensaje_bienvenida">Welcome to the World Cup app!\n%1$s</string>
+    <string name="cerrar_sesion">Log Out</string>
+    <string name="titulo_app">World Cup \n2026</string>
+    <string name="error_vacio"></string>
+    <string name="usuario_valido">user@tic.unam.mx</string>
+    <string name="contrasena_valida">d1pl0m0v1l35?</string>
+    <string name="gran_final">Grand Final</string>
+    <string name="ver_calendario">View World Cup Schedule</string>
+    <string name="copa">FIFA Cup</string>
+    <string name="argentina">ARGENTINA</string>
+    <string name="espana">SPAIN</string>
+</resources>

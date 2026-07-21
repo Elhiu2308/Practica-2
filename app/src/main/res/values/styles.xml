@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Texto">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/rojo</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_margin">8dp</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:shadowColor">@color/negro</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+
+    <style name="Texto.Titulo">
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_marginBottom">16dp</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:fontFamily">@font/alfa_slab_one</item>
+    </style>
+
+    <style name="Texto.Titulo.Verde">
+        <item name="android:textColor">@color/verde</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:text">@string/mensaje_bienvenida</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+
+    <style name="Texto.Titulo.Tarjeta">
+        <item name="android:textColor">@color/azul</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:text">@string/titulo_iniciar_sesion</item>
+    </style>
+
+    <style name="Texto.Titulo.Dorado">
+        <item name="android:textColor">@color/dorado</item>
+        <item name="android:text">@string/titulo_app</item>
+        <item name="android:shadowDx">2</item>
+        <item name="android:shadowDy">2</item>
+        <item name="android:shadowRadius">3</item>
+    </style>
+
+    <style name="Texto.Pie">
+        <item name="android:textColor">@color/rojo</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:text">@string/texto_pie</item>
+        <item name="android:shadowDx">2</item>
+        <item name="android:shadowDy">2</item>
+        <item name="android:shadowRadius">3</item>
+    </style>
+
+    <style name="Texto.Azul">
+    <item name="android:textColor">@color/azul</item>
+    <item name="android:clickable">true</item>
+    <item name="android:focusable">true</item>
+    </style>
+
+    <style name="Texto.Azul.Restablecer">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:text">@string/texto_olvido_contrasena</item>
+    </style>
+
+    <style name="Texto.Azul.Calendario">
+        <item name="android:text">@string/ver_calendario</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:padding">8dp</item>
+        <item name="android:drawableTint">@color/azul</item>
+        <item name="android:background">?attr/selectableItemBackground</item>
+    </style>
+
+    <style name="Texto.Titulo.Celeste">
+        <item name="android:textColor">@color/celeste</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">8dp</item>
+        <item name="android:shadowDx">2</item>
+        <item name="android:shadowDy">2</item>
+        <item name="android:shadowRadius">3</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:text">@string/argentina</item>
+    </style>
+
+    <style name="Texto.Titulo.Furia">
+        <item name="android:textColor">@color/furia</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">8dp</item>
+        <item name="android:shadowDx">2</item>
+        <item name="android:shadowDy">2</item>
+        <item name="android:shadowRadius">3</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:text">@string/espana</item>
+    </style>
+
+    <style name="Boton" parent="Widget.Material3.Button">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">16dp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">12sp</item>
+        <item name="cornerRadius">15dp</item>
+        <item name="android:textColor">@color/blanco</item>
+    </style>
+
+    <style name="Boton.Inicio">
+        <item name="backgroundTint">@color/azul</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:text">@string/boton_ingresar</item>
+    </style>
+
+    <style name="Boton.Idioma">
+        <item name="android:layout_width">40dp</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:padding">6dp</item>
+        <item name="android:layout_margin">8dp</item>
+        <item name="backgroundTint">@color/rojo</item>
+        <item name="android:text">@string/cambiar_idioma</item>
+
+    </style>
+
+    <style name="Boton.Cerrar">
+        <item name="android:layout_marginStart">32dp</item>
+        <item name="android:layout_marginEnd">32dp</item>
+        <item name="backgroundTint">@color/verde</item>
+        <item name="android:text">@string/cerrar_sesion</item>
+    </style>
+
+    <style name="SeparadorVer">
+        <item name="android:layout_width">3dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@color/azul</item>
+        <item name="android:layout_marginHorizontal">8dp</item>
+    </style>
+
+    <style name="SeparadorVer.Jugadores">
+        <item name="android:layout_width">3dp</item>
+        <item name="android:layout_height">200dp</item>
+        <item name="android:background">@color/azul</item>
+        <item name="android:elevation">10dp</item>
+    </style>
+
+    <style name="SeparadorHor">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">3dp</item>
+        <item name="android:layout_marginHorizontal">16dp</item>
+        <item name="android:layout_marginTop">16dp</item>
+        <item name="android:background">@color/azul</item>
+    </style>
+
+    <style name="LinearLayoutHorizontal">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:gravity">center_horizontal</item>
+        <!-- Eliminado el margen negativo global aquí para que no rompa la estructura -->
+    </style>
+
+    <style name="LayoutPdf">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">12dp</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_marginStart">16dp</item>
+        <item name="android:layout_marginEnd">12dp</item>
+        <item name="android:layout_marginTop">12dp</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="LayoutLogin">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:background">@color/blanco</item>
+        <item name="android:padding">28dp</item>
+    </style>
+
+    <style name="CardView.Login" parent="Widget.MaterialComponents.CardView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginEnd">40dp</item>
+        <item name="android:layout_marginStart">40dp</item>
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="cardCornerRadius">24dp</item>
+        <item name="cardElevation">20dp</item>
+    </style>
+
+    <style name="TextInputLayout.Login.Base" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">8dp</item>
+        <item name="boxCornerRadiusTopStart">15dp</item>
+        <item name="boxCornerRadiusTopEnd">15dp</item>
+        <item name="boxCornerRadiusBottomStart">15dp</item>
+        <item name="boxCornerRadiusBottomEnd">15dp</item>
+        <item name="boxStrokeColor">@color/azul</item>
+        <item name="hintTextColor">@color/azul</item>
+        <item name="startIconTint">@color/azul</item>
+        <item name="endIconTint">@color/azul</item>
+    </style>
+
+    <style name="TextInputLayout.Login.Correo" parent="TextInputLayout.Login.Base">
+        <item name="startIconDrawable">@drawable/ic_email</item>
+        <item name="android:hint">@string/etiqueta_correo</item>
+    </style>
+
+    <style name="TextInputEditText.Login.Correo"  parent="TextInputLayout.Login.Base">
+        <item name="android:inputType">textEmailAddress</item>
+    </style>
+
+    <style name="TextInputLayout.Login.Contrasena" parent="TextInputLayout.Login.Base">
+        <item name="endIconMode">password_toggle</item>
+        <item name="startIconDrawable">@drawable/ic_lock</item>
+        <item name="android:hint">@string/etiqueta_contrasena</item>
+    </style>
+
+    <style name="TextInputEditText.Login.Contrasena" parent="TextInputLayout.Login.Base">
+        <item name="android:inputType">textPassword</item>
+    </style>
+
+    <style name="Imagen">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:scaleType">centerCrop</item>
+
+    </style>
+
+    <style name="Imagen.Campo">
+        <item name="android:layout_height">250dp</item>
+        <item name="android:alpha">0.7</item>
+        <item name="android:src">@drawable/img_campo</item>
+
+    </style>
+
+    <style name="Imagen.Encabezado">
+        <item name="android:layout_height">300dp</item>
+        <item name="android:src">@drawable/header_background</item>
+        <item name="android:scaleType">fitXY</item>
+
+    </style>
+
+    <style name="Imagen.Copa">
+        <item name="android:layout_width">150dp</item>
+        <item name="android:layout_height">150dp</item>
+        <item name="android:layout_marginTop">24dp</item>
+        <item name="android:contentDescription">@string/copa</item>
+        <item name="android:src">@drawable/img_cup</item>
+    </style>
+
+
+    <style name="Imagen.Jugador">
+        <item name="android:layout_width">180dp</item>
+        <item name="android:layout_height">240dp</item>
+    </style>
+
+    <style name="Imagen.Pdf">
+        <item name="android:layout_width">40dp</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:src">@drawable/ic_pdf</item>
+        <item name="android:tint">@color/rojo</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:drawablePadding">8dp</item>
+        <item name="android:contentDescription">@string/ver_calendario</item>
+    </style>
+
+    <style name="Gradiente">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@drawable/gradient_overlay</item>
+    </style>
+
+
+</resources>
