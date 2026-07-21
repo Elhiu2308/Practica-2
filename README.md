@@ -61,7 +61,7 @@ La aplicación cumple con el 100% de la rúbrica de evaluación, integrando las 
        <img width="250" alt="Pantalla de Bienvenida" src="https://github.com/user-attachments/assets/89e65e02-70c6-494e-ba79-aac7a073083f" />
       </td>
       <td align="center">
-        <img width="250" alt="Calendario" src="https://github.com/user-attachments/assets/3c3e63ac-3686-4378-89fa-69c54794e939" />
+      <img width="250" alt="image" src="https://github.com/user-attachments/assets/7271b39e-8ef1-4042-a3f1-47182f940a08" />
       </td>
     </tr>
   </table>
